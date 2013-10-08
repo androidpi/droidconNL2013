@@ -1,0 +1,28 @@
+{
+  "name": "droidconNL2013",
+  "version": "0.0.0",
+  "homepage": "https://github.com/androidpi/droidconNL2013",
+  "authors": [
+    "Daan van Berkel <daan.v.berkel.1980@gmail.com>"
+  ],
+  "description": "Presentation used at droidcon NL 2013",
+  "main": "index.html",
+  "keywords": [
+    "android",
+    "raspberry",
+    "pi",
+    "sensors",
+    "communication",
+    "presentation",
+    "revealjs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
