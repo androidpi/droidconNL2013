@@ -1,0 +1,21 @@
+{
+  "name": "androidpi",
+  "version": "0.0.0",
+  "description": "Android+Raspberry PI resentation for droidcon NL 2013",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/androidpi/droidconNL2013.git"
+  },
+  "keywords": [
+    "presentation"
+  ],
+  "author": "Daan van Berkel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/androidpi/droidconNL2013/issues"
+  }
+}
