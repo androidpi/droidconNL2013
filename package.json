@@ -19,6 +19,7 @@
     "url": "https://github.com/androidpi/droidconNL2013/issues"
   },
   "dependencies": {
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "express": "~3.4.4"
   }
 }
