@@ -26,12 +26,17 @@
 	this.element.textContent = this.percentage.value;
     }
 
-    var single = new Percentage();
-    new PercentageView('pi-single', single);
+    var percentages = ['pi-single', 'pi-multi'].map(function(id){
+	var percentage = new Percentage();
+	new PercentageView(id, percentage);
+	return percentage;
+    });
 
     var socket = io.connect(window.location.origin);
     socket.on('data', function(data){
-	single.set(data.value);
+	percentages.forEach(function(percentage){
+	    percentage.set(data.value);
+	});
     });
 
     Reveal.initialize({
