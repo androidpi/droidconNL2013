@@ -26,7 +26,7 @@
 	this.element.textContent = this.percentage.value;
     }
 
-    var percentages = ['pi-single', 'pi-multi'].map(function(id){
+    var percentages = ['pi-single', 'pi-multi', 'pi-child'].map(function(id){
 	var percentage = new Percentage();
 	new PercentageView(id, percentage);
 	return percentage;
