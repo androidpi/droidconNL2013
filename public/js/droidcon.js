@@ -45,6 +45,15 @@
 	history: true,
 	center: true,
 	theme: 'default',
-	transition: 'default'
+	transition: 'default',
+	dependencies: [
+	    {
+		src: 'bower_components/reveal.js/plugin/highlight/highlight.js',
+		async: true,
+		callback: function() {
+		    hljs.initHighlightingOnLoad();
+		}
+	    }
+	]
     });
 })(Reveal, io);
