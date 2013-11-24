@@ -1,3 +1,15 @@
 .percentage:after {
     content: '%';
 }
+
+.android {
+    background-image: url('../image/android-logo.jpeg');
+}
+
+.communication {
+    background-image: url('../image/tin-can.jpeg');
+}
+
+.raspberry-pi {
+    background-image: url('../image/pi-logo.jpeg');
+}
